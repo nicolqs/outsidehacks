@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/test');
-
-var db = mongoose.connection;
+/* Database */
+var Sequelize = require('sequelize');
+var models    = require('../models');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
