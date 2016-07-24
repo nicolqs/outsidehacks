@@ -5,5 +5,12 @@
     "database": "outsidehacks",
     "host": "127.0.0.1",
     "dialect": "mysql"
+  },
+  "production": {
+    "username": "outside",
+    "password": "outside",
+    "database": "outsidehacks",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
