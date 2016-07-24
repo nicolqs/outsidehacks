@@ -17,4 +17,20 @@ router.get('/', function(req, res, next) {
   });
 });
 
+router.get('/:artistId', function(req, res, next) {
+  models.Artist.findAll(
+    {
+      where: { 'id' : req.params.artistId },
+      attributes: { exclude: ['createdAt', 'updatedAt'] },
+    })
+  .then(function(artist) {
+    if (artist && artist[0] != undefined) {
+      res.json({ 'artist': artist });
+    } else {
+      res.status(404).send({"success": false, "data": { "message": 'Artist not found' }});
+    }
+  });
+});
+
+
 module.exports = router;
