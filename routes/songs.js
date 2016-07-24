@@ -24,8 +24,10 @@ router.get('/:artistId', function(req, res, next) {
       attributes: { exclude: ['createdAt', 'updatedAt'] },
     })
   .then(function(songs) {
-    if (songs) {
+    if (songs && songs[0] != undefined) {
       res.json({ 'songs': songs });
+    } else {
+      res.status(400).send({"success": false, "data": { "message": 'Songs from that artist ID does not exist' }});
     }
   });
 });
