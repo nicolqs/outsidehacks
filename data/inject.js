@@ -1,14 +1,46 @@
-
+// Artists
 var json = fs.readFileSync(__dirname + '/../data/artists.json', 'utf8');
 var artists = JSON.parse(json);
-console.log(artists);
 artists.forEach(function (item) {
-  Artist.create(
+  request('https://api.spotify.com/v1/artists/' + item.spotifyID, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      // console.log(body)
+      var data = JSON.parse(body);
+      var imageUrl;
+
+      if (data.images[0] == undefined) { // fallback URL
+        imageUrl = 'http://4.bp.blogspot.com/-HexAc5BkACA/UITppjQqdXI/AAAAAAAAAUU/i3C3DWHVveY/s1600/artist-placeholder.gif';
+      } else {
+        imageUrl = data.images[1].url;
+      }
+
+      Artist.create(
+        {
+          'name' : item.name,
+          'spotifyId' : item.spotifyID,
+          'imageUrl' : imageUrl,
+          'stageId' : 1,
+          'startTime' : sequelize.fn('NOW'),
+          'endTime' : sequelize.fn('NOW')
+        }
+      ).then(function(createdArtist) {
+         console.log('name ' + item.name + ' inserted!');
+      });
+
+    }
+  })
+});
+
+
+// Stages
+var json = fs.readFileSync(__dirname + '/../data/stages.json', 'utf8');
+var stages = JSON.parse(json);
+stages.forEach(function (item) {
+  Stage.create(
     {
       'name' : item.name,
-      'spotifyId' : item.spotifyID
     }
   ).then(function(createdArtist) {
-     console.log('name ' + item.name + ' inserted!');
+     console.log('stage name ' + item.name + ' inserted!');
   });
 })
