@@ -7,8 +7,17 @@ module.exports = function(sequelize, DataTypes) {
     name: {
       type: Sequelize.STRING
     },
-    spotifyID: {
+    spotifyId: {
       type: Sequelize.STRING
+    },
+    imageUrl: {
+      type: Sequelize.STRING
+    },
+    startTime: {
+      type: Sequelize.DATE
+    },
+    endTime: {
+      type: Sequelize.DATE
     }
   });
 

@@ -49,8 +49,6 @@ var Stage = sequelize.define('stage', {
 Artist.belongsTo(Stage); // eager loading
 Stage.hasMany(Artist, {foreignKey: 'stageId'})
 
-
-
 db['Artist'] = Artist;
 db['Song'] = Song;
 db['Stage'] = Stage;

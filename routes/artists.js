@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
     {
       attributes:
         { exclude: ['createdAt', 'updatedAt'] },
-        // [sequelize.fn('date_format', sequelize.col('startTime'), '%Y-%m-%d'), 'startTime']
     })
   .then(function(artists) {
     if (artists) {

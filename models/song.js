@@ -8,12 +8,10 @@ module.exports = function(sequelize, DataTypes) {
     name: {
       type: Sequelize.STRING
     },
-    artistId: {
-      type: Sequelize.INTEGER
+    imageUrl: {
+      type: Sequelize.STRING
     }
   });
-  // Song.belongsTo(Artist); // eager loading
-  Song.hasMany(Artist);
 
   return Song;
 };
