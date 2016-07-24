@@ -14,6 +14,7 @@ Project worked on at [outsideHacks](http://www.outsidehacks.com/) hackathon
 Goal: Build something that enhances the experience for Artists and/or Fans at Outside Lands 2016 (iOS, Android, Web, or anything else).
 
 ## App Logo
+
 ![Screenshot][logo]
 
-[logo]: http://imgur.com/c7P4ZvQ
+[logo]: http://i.imgur.com/c7P4ZvQ.png
