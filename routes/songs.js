@@ -9,6 +9,12 @@ router.get('/', function(req, res, next) {
     {
       attributes:
         { exclude: ['createdAt', 'updatedAt'] },
+        include: [
+          {
+            model: models.Artist,
+            attributes: { exclude: ['createdAt', 'updatedAt'] }
+          }
+        ]
     })
   .then(function(songs) {
     if (songs) {
@@ -22,6 +28,12 @@ router.get('/:artistId', function(req, res, next) {
     {
       where: { 'artistId' : req.params.artistId },
       attributes: { exclude: ['createdAt', 'updatedAt'] },
+      include: [
+        {
+          model: models.Artist,
+          attributes: { exclude: ['createdAt', 'updatedAt'] }
+        }
+      ]
     })
   .then(function(songs) {
     if (songs && songs[0] != undefined) {
