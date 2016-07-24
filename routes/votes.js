@@ -10,7 +10,7 @@ router.post('/:songId', function(req, res, next) {
   var songId = Math.abs(req.params.songId); // absolute int
 
   if (songId) {
-    /* @TODO Need to implement the User verification check before couting vote in */
+    /* @TODO Need to implement the User verification check (auth token) before couting vote in */
 
     models.Vote.create(
       {
@@ -24,6 +24,23 @@ router.post('/:songId', function(req, res, next) {
   } else {
     res.status(400).send({"success": false, "data": { "message": 'Missing song ID' }});
   }
+});
+
+router.get('/my', function(req, res, next) {
+    /* @TODO Need to implement the User verification check (auth token) before couting vote in */
+
+    token = true;
+
+    if (token) {
+      models.Vote.findAll(
+        {
+          where: { 'userId' : 75 },
+          attributes: { exclude: ['createdAt', 'updatedAt', 'id', 'userId'] }
+        }
+      ).then(function(votes) {
+        res.json({ 'votes': votes });
+      });
+    }
 });
 
 module.exports = router;
