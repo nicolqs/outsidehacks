@@ -9,8 +9,16 @@ var models    = require('../models');
 router.post('/:songId', function(req, res, next) {
   var songId = Math.abs(req.params.songId); // absolute int
 
-  if (songId) {
-    /* @TODO Need to implement the User verification check (auth token) before couting vote in */
+  /* @TODO Need to implement the User verification check (auth token) before couting vote in */
+  token = true;
+  userId = 75;
+
+  if (token && songId) {
+    // models.Vote.findAll(
+    //   {
+    //     where: { 'userId' : userId,  }
+    //   }
+    // )
 
     models.Vote.create(
       {
@@ -30,15 +38,43 @@ router.get('/my', function(req, res, next) {
     /* @TODO Need to implement the User verification check (auth token) before couting vote in */
 
     token = true;
+    userId = 75;
 
     if (token) {
       models.Vote.findAll(
         {
-          where: { 'userId' : 75 },
+          where: { 'userId' : userId },
           attributes: { exclude: ['createdAt', 'updatedAt', 'id', 'userId'] }
         }
       ).then(function(votes) {
-        res.json({ 'votes': votes });
+        var songs = [];
+        votes.forEach(function(vote) {
+          songs.push(vote.songId)
+        });
+
+        models.Song.findAll(
+          {
+            where: { 'id' : songs },
+            attributes: { exclude: ['createdAt', 'updatedAt', 'artistId'] },
+            include: [
+              {
+                model: models.Artist,
+                attributes: { exclude: ['createdAt', 'updatedAt', 'stageId'] },
+                include: [
+                  {
+                    model: models.Stage,
+                    attributes: { exclude: ['createdAt', 'updatedAt', 'stageId'] },
+                  }
+                ]
+              }
+            ],
+          }
+        ).then(function(songs) {
+          res.json({ 'songs': songs });
+        });
+
+
+        
       });
     }
 });
