@@ -14,7 +14,6 @@ router.get('/', function(req, res, next) {
     if (songs) {
       res.json({ 'songs': songs });
     }
-    console.log('error');
   });
 });
 
@@ -28,7 +27,6 @@ router.get('/:artistId', function(req, res, next) {
     if (songs) {
       res.json({ 'songs': songs });
     }
-    console.log('error');
   });
 });
 

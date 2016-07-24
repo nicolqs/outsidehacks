@@ -2,7 +2,7 @@
 var json = fs.readFileSync(__dirname + '/../data/artists.json', 'utf8');
 var artists = JSON.parse(json);
 artists.forEach(function (item) {
-  request('https://api.spotify.com/v1/artists/' + item.spotifyID, function (error, response, body) {
+  request('https://api.spotify.com/v1/artists/' + item.spotifyId, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       // console.log(body)
       var data = JSON.parse(body);
@@ -17,16 +17,15 @@ artists.forEach(function (item) {
       Artist.create(
         {
           'name' : item.name,
-          'spotifyId' : item.spotifyID,
+          'spotifyId' : item.spotifyId,
           'imageUrl' : imageUrl,
-          'stageId' : 1,
-          'startTime' : sequelize.fn('NOW'),
-          'endTime' : sequelize.fn('NOW')
+          'stageId' : item.stageId,
+          'startTime' : new Date(item.startTime.replace('T', ' ')),
+          'endTime' : new Date(item.endTime.replace('T', ' '))
         }
       ).then(function(createdArtist) {
          console.log('name ' + item.name + ' inserted!');
       });
-
     }
   })
 });
@@ -43,11 +42,10 @@ artists.forEach(function (item, index) {
       var imageUrl;
 
       tracks.forEach(function (song) {
-        song = song.album;
-        if (song.images[0] == undefined) { // fallback URL
+        if (song.album.images[0] == undefined) { // fallback URL
           imageUrl = 'http://geniusmindsystem.org/music_portal/movies/album-placeholder.png';
         } else {
-          imageUrl = song.images[0].url;
+          imageUrl = song.album.images[0].url;
         }
 
         Song.create(

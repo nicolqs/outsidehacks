@@ -1,342 +1,598 @@
 [
    {
       "name":"Lany",
-      "spotifyID":"49tQo2QULno7gxHutgccqF"
+      "spotifyId":"49tQo2QULno7gxHutgccqF",
+      "stageId": 1,
+      "startTime": "2016-08-05T12:45:00-7:00",
+      "endTime": "2016-08-05T13:35:00-7:00"
    },
    {
       "name":"Ra Ra Riot",
-      "spotifyID":"6FIrstf3kHEg3zBOyLpvxD"
+      "spotifyId":"6FIrstf3kHEg3zBOyLpvxD",
+      "stageId": 1,
+      "startTime": "2016-08-05T14:05:00-7:00",
+      "endTime": "2016-08-05T14:55:00-7:00"
+
    },
    {
       "name":"St. Lucia",
-      "spotifyID":"5WId4o5jdGVhptNU0uqKxu"
+      "spotifyId":"5WId4o5jdGVhptNU0uqKxu",
+      "stageId": 1,
+      "startTime": "2016-08-05T15:25:00-7:00",
+      "endTime": "2016-08-05T16:15:00-7:00"
    },
    {
       "name":"Mike Snow",
-      "spotifyID":"4l1cKWYW591xnwEGxpUg3J"
+      "spotifyId":"4l1cKWYW591xnwEGxpUg3J",
+      "stageId": 1,
+      "startTime": "2016-08-05T16:45:00-7:00",
+      "endTime": "2016-08-05T17:45:00-7:00"
    },
    {
       "name":"Duran Duran",
-      "spotifyID":"0lZoBs4Pzo7R89JM9lxwoT"
+      "spotifyId":"0lZoBs4Pzo7R89JM9lxwoT",
+      "stageId": 1,
+      "startTime": "2016-08-05T18:15:00-7:00",
+      "endTime": "2016-08-05T19:25:00-7:00"
    },
    {
       "name":"LCD Soundsystem",
-      "spotifyID":"066X20Nz7iquqkkCW6Jxy6"
+      "spotifyId":"066X20Nz7iquqkkCW6Jxy6",
+      "stageId": 1,
+      "startTime": "2016-08-05T20:10:00-7:00",
+      "endTime": "2016-08-05T21:55:00-7:00"
    },
    {
       "name":"Whitney",
-      "spotifyID":"32aUoW94mJ7xTJI7fG0V1G"
+      "spotifyId":"32aUoW94mJ7xTJI7fG0V1G",
+      "stageId": 2,
+      "startTime": "2016-08-05T12:00:00-7:00",
+      "endTime": "2016-08-05T12:45:00-7:00"
    },
    {
       "name":"Caveman",
-      "spotifyID":"2Co0mXhhgm8bAISHfj1fje"
+      "spotifyId":"2Co0mXhhgm8bAISHfj1fje",
+      "stageId": 2,
+      "startTime": "2016-08-05T13:15:00-7:00",
+      "endTime": "2016-08-05T14:00:00-7:00"
    },
    {
       "name":"Wet",
-      "spotifyID":"2i9uaNzfUtuApAjEf1omV8"
+      "spotifyId":"2i9uaNzfUtuApAjEf1omV8",
+      "stageId": 2,
+      "startTime": "2016-08-05T14:30:00-7:00",
+      "endTime": "2016-08-05T15:20:00-7:00"
    },
    {
       "name":"Foals",
-      "spotifyID":"6FQqZYVfTNQ1pCqfkwVFEa"
+      "spotifyId":"6FQqZYVfTNQ1pCqfkwVFEa",
+      "stageId": 2,
+      "startTime": "2016-08-05T15:50:00-7:00",
+      "endTime": "2016-08-05T16:40:00-7:00"
    },
    {
       "name":"The Claypool Lennon Delirium",
-      "spotifyID":"2yUsje7CszKGu4g1f4ih3b"
+      "spotifyId":"2yUsje7CszKGu4g1f4ih3b",
+      "stageId": 2,
+      "startTime": "2016-08-05T17:10:00-7:00",
+      "endTime": "2016-08-05T18:00:00-7:00"
    },
    {
       "name":"Nathaniel Rateliff & The Night Sweats",
-      "spotifyID":"02seUFsFQP7TH4hLrTj77o"
+      "spotifyId":"02seUFsFQP7TH4hLrTj77o",
+      "stageId": 2,
+      "startTime": "2016-08-05T18:30:00-7:00",
+      "endTime": "2016-08-05T19:20:00-7:00"
    },
    {
       "name":"Beach House",
-      "spotifyID":"56ZTgzPBDge0OvCGgMO3OY"
+      "spotifyId":"56ZTgzPBDge0OvCGgMO3OY",
+      "stageId": 2,
+      "startTime": "2016-08-05T19:50:00-7:00",
+      "endTime": "2016-08-05T21:00:00-7:00"
    },
    {
       "name":"Marian Hill",
-      "spotifyID":"1xHQO9GJIW9OXHxGBISYc5"
+      "spotifyId":"1xHQO9GJIW9OXHxGBISYc5",
+      "stageId": 3,
+      "startTime": "2016-08-05T12:45:00-7:00",
+      "endTime": "2016-08-05T13:30:00-7:00"
    },
    {
       "name":"Jidenna",
-      "spotifyID":"4TsHKU8l8Wq7n7OPVikirn"
+      "spotifyId":"4TsHKU8l8Wq7n7OPVikirn",
+      "stageId": 3,
+      "startTime": "2016-08-05T14:10:00-7:00",
+      "endTime": "2016-08-05T14:55:00-7:00"
    },
    {
       "name":"Poliça",
-      "spotifyID":"34vLhockmYhf3LgznwyNaQ"
+      "spotifyId":"34vLhockmYhf3LgznwyNaQ",
+      "stageId": 3,
+      "startTime": "2016-08-05T12:00:00-7:00",
+      "endTime": "2016-08-05T12:00:00-7:00"
    },
    {
       "name":"Thomas Jack",
-      "spotifyID":"6JmzdIDSQdeHg0pocIascm"
+      "spotifyId":"6JmzdIDSQdeHg0pocIascm",
+      "stageId": 3,
+      "startTime": "2016-08-05T17:15:00-7:00",
+      "endTime": "2016-08-05T18:05:00-7:00"
    },
    {
       "name":"Grimes",
-      "spotifyID":"053q0ukIDRgzwTr4vNSwab"
+      "spotifyId":"053q0ukIDRgzwTr4vNSwab",
+      "stageId": 3,
+      "startTime": "2016-08-05T18:50:00-7:00",
+      "endTime": "2016-08-05T19:50:00-7:00"
    },
    {
       "name":"J. Cole",
-      "spotifyID":"6l3HvQ5sa6mXTsMTB19rO5"
+      "spotifyId":"6l3HvQ5sa6mXTsMTB19rO5",
+      "stageId": 3,
+      "startTime": "2016-08-05T20:40:00-7:00",
+      "endTime": "2016-08-05T21:55:00-7:00"
    },
    {
       "name":"Down and Outlaws",
-      "spotifyID":"3sW0bZ6jJoLpiAOQVYg8C6"
+      "spotifyId":"3sW0bZ6jJoLpiAOQVYg8C6",
+      "stageId": 4,
+      "startTime": "2016-08-05T12:00:00-7:00",
+      "endTime": "2016-08-05T12:40:00-7:00"
    },
    {
       "name":"Moon Taxi",
-      "spotifyID":"5DK8eK7fjvRsziXzyr3sFA"
+      "spotifyId":"5DK8eK7fjvRsziXzyr3sFA",
+      "stageId": 4,
+      "startTime": "2016-08-05T13:30:00-7:00",
+      "endTime": "2016-08-05T14:10:00-7:00"
    },
    {
       "name":"Vulfpeck",
-      "spotifyID":"7pXu47GoqSYRajmBCjxdD6"
+      "spotifyId":"7pXu47GoqSYRajmBCjxdD6",
+      "stageId": 4,
+      "startTime": "2016-08-05T14:55:00-7:00",
+      "endTime": "2016-08-05T15:55:00-7:00"
    },
    {
       "name":"TOKiMONSTA",
-      "spotifyID":"3VwKSHAfgzV1DOHV0aANCI"
+      "spotifyId":"3VwKSHAfgzV1DOHV0aANCI",
+      "stageId": 4,
+      "startTime": "2016-08-05T16:30:00-7:00",
+      "endTime": "2016-08-05T17:10:00-7:00"
    },
    {
       "name":"Låpsley",
-      "spotifyID":"27ze6hCgfr3HcDZAHY60pg"
+      "spotifyId":"27ze6hCgfr3HcDZAHY60pg",
+      "stageId": 4,
+      "startTime": "2016-08-05T18:05:00-7:00",
+      "endTime": "2016-08-05T18:45:00-7:00"
    },
    {
       "name":"Hiatus Kaiyote",
-      "spotifyID":"43JlwunhXm1oqdKyOa2Z9Y"
+      "spotifyId":"43JlwunhXm1oqdKyOa2Z9Y",
+      "stageId": 4,
+      "startTime": "2016-08-05T19:50:00-7:00",
+      "endTime": "2016-08-05T20:35:00-7:00"
    },
    {
       "name":"219 Boys",
-      "spotifyID":"2BACbUEbNpekP93rR3Xa1A"
+      "spotifyId":"2BACbUEbNpekP93rR3Xa1A",
+      "stageId": 5,
+      "startTime": "2016-08-05T13:30:00-7:00",
+      "endTime": "2016-08-05T15:00:00-7:00"
    },
    {
       "name":"FDVM",
-      "spotifyID":"6J0Y4CoGMKL5RyeozHnVKl"
+      "spotifyId":"6J0Y4CoGMKL5RyeozHnVKl",
+      "stageId": 5,
+      "startTime": "2016-08-05T15:00:00-7:00",
+      "endTime": "2016-08-05T16:30:00-7:00"
    },
    {
       "name":"Redlight",
-      "spotifyID":"4ly0VtIYiDYVA4q6ry0NUk"
+      "spotifyId":"4ly0VtIYiDYVA4q6ry0NUk",
+      "stageId": 5,
+      "startTime": "2016-08-05T16:30:00-7:00",
+      "endTime": "2016-08-05T18:00:00-7:00"
    },
    {
       "name":"PillowTalk",
-      "spotifyID":"0c8mm66bWaIlx5jdUhyYne"
+      "spotifyId":"0c8mm66bWaIlx5jdUhyYne",
+      "stageId": 5,
+      "startTime": "2016-08-05T18:00:00-7:00",
+      "endTime": "2016-08-05T20:00:00-7:00"
    },
    {
       "name":"Lewis Del Mar",
-      "spotifyID":"2oqwwcM17wrP9hBD25zKSR"
+      "spotifyId":"2oqwwcM17wrP9hBD25zKSR",
+      "stageId": 1,
+      "startTime": "2016-08-06T12:45:00-7:00",
+      "endTime": "2016-08-06T13:30:00-7:00"
    },
    {
       "name":"The Wombats",
-      "spotifyID":"0Ya43ZKWHTKkAbkoJJkwIB"
+      "spotifyId":"0Ya43ZKWHTKkAbkoJJkwIB",
+      "stageId": 1,
+      "startTime": "2016-08-06T14:00:00-7:00",
+      "endTime": "2016-08-06T14:50:00-7:00"
    },
    {
       "name":"Years & Years",
-      "spotifyID":"5vBSrE1xujD2FXYRarbAXc"
+      "spotifyId":"5vBSrE1xujD2FXYRarbAXc",
+      "stageId": 1,
+      "startTime": "2016-08-06T15:20:00-7:00",
+      "endTime": "2016-08-06T16:10:00-7:00"
    },
    {
       "name":"Big Grams",
-      "spotifyID":"4jU68Hm8np6WNZXMqi7rz3"
+      "spotifyId":"4jU68Hm8np6WNZXMqi7rz3",
+      "stageId": 1,
+      "startTime": "2016-08-06T16:40:00-7:00",
+      "endTime": "2016-08-06T17:40:00-7:00"
    },
    {
       "name":"Air",
-      "spotifyID":"1P6U1dCeHxPui5pIrGmndZ"
+      "spotifyId":"1P6U1dCeHxPui5pIrGmndZ",
+      "stageId": 1,
+      "startTime": "2016-08-06T18:10:00-7:00",
+      "endTime": "2016-08-06T19:10:00-7:00"
    },
    {
       "name":"Radiohead",
-      "spotifyID":"4Z8W4fKeB5YxbusRsdQVPb"
+      "spotifyId":"4Z8W4fKeB5YxbusRsdQVPb",
+      "stageId": 1,
+      "startTime": "2016-08-06T19:55:00-7:00",
+      "endTime": "2016-08-06T21:55:00-7:00"
    },
    {
       "name":"Julien Baker",
-      "spotifyID":"2U2n6foSdAy3KOqDpELueD"
+      "spotifyId":"2U2n6foSdAy3KOqDpELueD",
+      "stageId": 2,
+      "startTime": "2016-08-06T12:00:00-7:00",
+      "endTime": "2016-08-06T12:45:00-7:00"
    },
    {
       "name":"Rogue Wave",
-      "spotifyID":"2JSc53B5cQ31m0xTB7JFpG"
+      "spotifyId":"2JSc53B5cQ31m0xTB7JFpG",
+      "stageId": 2,
+      "startTime": "2016-08-06T13:15:00-7:00",
+      "endTime": "2016-08-06T14:05:00-7:00"
    },
    {
       "name":"Ibeyi",
-      "spotifyID":"5Q8NEHGX70m1kkojbtm8wa"
+      "spotifyId":"5Q8NEHGX70m1kkojbtm8wa",
+      "stageId": 2,
+      "startTime": "2016-08-06T14:35:00-7:00",
+      "endTime": "2016-08-06T15:25:00-7:00"
    },
    {
       "name":"Lord Huron",
-      "spotifyID":"6ltzsmQQbmdoHHbLZ4ZN25"
+      "spotifyId":"6ltzsmQQbmdoHHbLZ4ZN25",
+      "stageId": 2,
+      "startTime": "2016-08-06T15:55:00-7:00",
+      "endTime": "2016-08-06T16:45:00-7:00"
    },
    {
       "name":"The Last Shadow Puppets",
-      "spotifyID":"2Z7UcsdweVlRbAk5wH5fsf"
+      "spotifyId":"2Z7UcsdweVlRbAk5wH5fsf",
+      "stageId": 2,
+      "startTime": "2016-08-06T17:15:00-7:00",
+      "endTime": "2016-08-06T18:05:00-7:00"
    },
    {
       "name":"Sufjan Stevens",
-      "spotifyID":"4MXUO7sVCaFgFjoTI5ox5c"
+      "spotifyId":"4MXUO7sVCaFgFjoTI5ox5c",
+      "stageId": 2,
+      "startTime": "2016-08-06T18:35:00-7:00",
+      "endTime": "2016-08-06T19:45:00-7:00"
    },
    {
       "name":"Fantastic Negrito",
-      "spotifyID":"5QXLMdpKeByOo5ypH9gT13"
+      "spotifyId":"5QXLMdpKeByOo5ypH9gT13",
+      "stageId": 3,
+      "startTime": "2016-08-06T12:40:00-7:00",
+      "endTime": "2016-08-06T13:25:00-7:00"
    },
    {
       "name":"The Knocks",
-      "spotifyID":"2x7EATekOPhFGRx3syMGEC"
+      "spotifyId":"2x7EATekOPhFGRx3syMGEC",
+      "stageId": 3,
+      "startTime": "2016-08-06T14:05:00-7:00",
+      "endTime": "2016-08-06T14:55:00-7:00"
    },
    {
       "name":"Vince Staples",
-      "spotifyID":"68kEuyFKyqrdQQLLsmiatm"
+      "spotifyId":"68kEuyFKyqrdQQLLsmiatm",
+      "stageId": 3,
+      "startTime": "2016-08-06T15:40:00-7:00",
+      "endTime": "2016-08-06T16:30:00-7:00"
    },
    {
       "name":"Jauz",
-      "spotifyID":"5ttgIeUVka6FLyi00Uu5h8"
+      "spotifyId":"5ttgIeUVka6FLyi00Uu5h8",
+      "stageId": 3,
+      "startTime": "2016-08-06T17:15:00-7:00",
+      "endTime": "2016-08-06T18:05:00-7:00"
    },
    {
       "name":"Halsey",
-      "spotifyID":"26VFTg2z8YR0cCuwLzESi2"
+      "spotifyId":"26VFTg2z8YR0cCuwLzESi2",
+      "stageId": 3,
+      "startTime": "2016-08-06T18:55:00-7:00",
+      "endTime": "2016-08-06T19:55:00-7:00"
    },
    {
       "name":"Zedd",
-      "spotifyID":"2qxJFvFYMEDqd7ui6kSAcq"
+      "spotifyId":"2qxJFvFYMEDqd7ui6kSAcq",
+      "stageId": 3,
+      "startTime": "2016-08-06T20:40:00-7:00",
+      "endTime": "2016-08-06T21:55:00-7:00"
    },
    {
       "name":"Methyl Ethel",
-      "spotifyID":"3I3Fz1DeUY0icXFvOjbXm7"
+      "spotifyId":"3I3Fz1DeUY0icXFvOjbXm7",
+      "stageId": 4,
+      "startTime": "2016-08-06T12:00:00-7:00",
+      "endTime": "2016-08-06T12:00:00-7:00"
    },
    {
       "name":"Declan McKenna",
-      "spotifyID":"2D4FOOOtWycb3Aw9nY5n3c"
+      "spotifyId":"2D4FOOOtWycb3Aw9nY5n3c",
+      "stageId": 4,
+      "startTime": "2016-08-06T12:00:00-7:00",
+      "endTime": "2016-08-06T12:40:00-7:00"
    },
    {
       "name":"Kevin Morby",
-      "spotifyID":"6fxk3UXHTFYET8qCT9WlBF"
+      "spotifyId":"6fxk3UXHTFYET8qCT9WlBF",
+      "stageId": 4,
+      "startTime": "2016-08-06T14:55:00-7:00",
+      "endTime": "2016-08-06T15:35:00-7:00"
    },
    {
       "name":"Con Brio",
-      "spotifyID":"7vMq7jzis1GsGIZClg4lTg"
+      "spotifyId":"7vMq7jzis1GsGIZClg4lTg",
+      "stageId": 4,
+      "startTime": "2016-08-06T16:30:00-7:00",
+      "endTime": "2016-08-06T17:10:00-7:00"
    },
    {
       "name":"Peaches",
-      "spotifyID":"1gkSl4XpHIHI4I1WQbfXOE"
+      "spotifyId":"1gkSl4XpHIHI4I1WQbfXOE",
+      "stageId": 4,
+      "startTime": "2016-08-06T18:05:00-7:00",
+      "endTime": "2016-08-06T18:50:00-7:00"
    },
    {
       "name":"Anderson .Paak",
-      "spotifyID":"3jK9MiCrA42lLAdMGUZpwa"
+      "spotifyId":"3jK9MiCrA42lLAdMGUZpwa",
+      "stageId": 4,
+      "startTime": "2016-08-06T19:55:00-7:00",
+      "endTime": "2016-08-06T20:40:00-7:00"
    },
    {
       "name":"Motion Potion",
-      "spotifyID":"28MIosOaxi4smgeOGhlxtn"
+      "spotifyId":"28MIosOaxi4smgeOGhlxtn",
+      "stageId": 5,
+      "startTime": "2016-08-06T12:00:00-7:00",
+      "endTime": "2016-08-06T15:00:00-7:00"
    },
    {
       "name":"Translucent",
-      "spotifyID":"4mfGFhCaLqspcSJMpvd5k2"
+      "spotifyId":"4mfGFhCaLqspcSJMpvd5k2",
+      "stageId": 5,
+      "startTime": "2016-08-06T16:30:00-7:00",
+      "endTime": "2016-08-06T17:30:00-7:00"
    },
    {
       "name":"Purple Disco Machine",
-      "spotifyID":"2WBJQGf1bT1kxuoqziH5g4"
+      "spotifyId":"2WBJQGf1bT1kxuoqziH5g4",
+      "stageId": 5,
+      "startTime": "2016-08-06T17:30:00-7:00",
+      "endTime": "2016-08-06T18:30:00-7:00"
    },
    {
       "name":"Victor Calderon",
-      "spotifyID":"2vSlQJ6UWFVWZQPzUaaMGI"
+      "spotifyId":"2vSlQJ6UWFVWZQPzUaaMGI",
+      "stageId": 5,
+      "startTime": "2016-08-06T18:30:00-7:00",
+      "endTime": "2016-08-06T20:00:00-7:00"
    },
    {
       "name":"Kamasi Washington",
-      "spotifyID":"6HQYnRM4OzToCYPpVBInuU"
+      "spotifyId":"6HQYnRM4OzToCYPpVBInuU",
+      "stageId": 1,
+      "startTime": "2016-08-07T12:00:00-7:00",
+      "endTime": "2016-08-07T12:45:00-7:00"
    },
    {
       "name":"Oh Wonder",
-      "spotifyID":"5cIc3SBFuBLVxJz58W2tU9"
+      "spotifyId":"5cIc3SBFuBLVxJz58W2tU9",
+      "stageId": 1,
+      "startTime": "2016-08-07T13:15:00-7:00",
+      "endTime": "2016-08-07T14:00:00-7:00"
    },
    {
       "name":"Dr. Teeth and the Electric Mayhem",
-      "spotifyID":"2ga7tr3zy7iQ9r2VQ6AMGF"
+      "spotifyId":"2ga7tr3zy7iQ9r2VQ6AMGF",
+      "stageId": 1,
+      "startTime": "2016-08-07T14:30:00-7:00",
+      "endTime": "2016-08-07T14:55:00-7:00"
    },
    {
       "name":"Third Eye Blind",
-      "spotifyID":"6TcnmlCSxihzWOQJ8k0rNS"
+      "spotifyId":"6TcnmlCSxihzWOQJ8k0rNS",
+      "stageId": 1,
+      "startTime": "2016-08-07T15:25:00-7:00",
+      "endTime": "2016-08-07T16:25:00-7:00"
    },
    {
       "name":"Chance the Rapper",
-      "spotifyID":"1anyVhU62p31KFi8MEzkbf"
+      "spotifyId":"1anyVhU62p31KFi8MEzkbf",
+      "stageId": 1,
+      "startTime": "2016-08-07T16:55:00-7:00",
+      "endTime": "2016-08-07T17:55:00-7:00"
    },
    {
       "name":"Major Lazer",
-      "spotifyID":"738wLrAtLtCtFOLvQBXOXp"
+      "spotifyId":"738wLrAtLtCtFOLvQBXOXp",
+      "stageId": 1,
+      "startTime": "2016-08-07T18:25:00-7:00",
+      "endTime": "2016-08-07T19:25:00-7:00"
    },
    {
       "name":"Lionel Richie",
-      "spotifyID":"3gMaNLQm7D9MornNILzdSl"
+      "spotifyId":"3gMaNLQm7D9MornNILzdSl",
+      "stageId": 1,
+      "startTime": "2016-08-07T20:05:00-7:00",
+      "endTime": "2016-08-07T21:35:00-7:00"
    },
    {
       "name":"Frances",
-      "spotifyID":"2vav85vCTqi07u0gu6Y3Rj"
+      "spotifyId":"2vav85vCTqi07u0gu6Y3Rj",
+      "stageId": 2,
+      "startTime": "2016-08-07T12:05:00-7:00",
+      "endTime": "2016-08-07T12:50:00-7:00"
    },
    {
       "name":"The Oh Hellos",
-      "spotifyID":"3Fe3pszR2t4TOBVz41B1WR"
+      "spotifyId":"3Fe3pszR2t4TOBVz41B1WR",
+      "stageId": 2,
+      "startTime": "2016-08-07T13:20:00-7:00",
+      "endTime": "2016-08-07T14:05:00-7:00"
    },
    {
       "name":"Jack Garratt",
-      "spotifyID":"1Zp054Jc86WVKCxKEqZGOA"
+      "spotifyId":"1Zp054Jc86WVKCxKEqZGOA",
+      "stageId": 2,
+      "startTime": "2016-08-07T14:35:00-7:00",
+      "endTime": "2016-08-07T15:25:00-7:00"
    },
    {
       "name":"Brandi Carlile",
-      "spotifyID":"2sG4zTOLvjKG1PSoOyf5Ej"
+      "spotifyId":"2sG4zTOLvjKG1PSoOyf5Ej",
+      "stageId": 2,
+      "startTime": "2016-08-07T15:55:00-7:00",
+      "endTime": "2016-08-07T16:45:00-7:00"
    },
    {
       "name":"Jason Isbell",
-      "spotifyID":"3Q8wgwyVVv0z4UEh1HB0KY"
+      "spotifyId":"3Q8wgwyVVv0z4UEh1HB0KY",
+      "stageId": 2,
+      "startTime": "2016-08-07T17:15:00-7:00",
+      "endTime": "2016-08-07T18:05:00-7:00"
    },
    {
       "name":"Ryan Adams and the Shining",
-      "spotifyID":"2qc41rNTtdLK0tV3mJn2Pm"
+      "spotifyId":"2qc41rNTtdLK0tV3mJn2Pm",
+      "stageId": 2,
+      "startTime": "2016-08-07T18:35:00-7:00",
+      "endTime": "2016-08-07T19:50:00-7:00"
    },
    {
       "name":"Natalia Lafourcade",
-      "spotifyID":"1hcdI2N1023RvSwLzTtdsp"
+      "spotifyId":"1hcdI2N1023RvSwLzTtdsp",
+      "stageId": 3,
+      "startTime": "2016-08-07T12:40:00-7:00",
+      "endTime": "2016-08-07T13:20:00-7:00"
    },
    {
       "name":"Snakehips",
-      "spotifyID":"2FwJwEswyIUAljqgjNSHgP"
+      "spotifyId":"2FwJwEswyIUAljqgjNSHgP",
+      "stageId": 3,
+      "startTime": "2016-08-07T14:00:00-7:00",
+      "endTime": "2016-08-07T16:45:00-7:00"
    },
    {
       "name":"GRiZ",
-      "spotifyID":"25oLRSUjJk4YHNUsQXk7Ut"
+      "spotifyId":"25oLRSUjJk4YHNUsQXk7Ut",
+      "stageId": 3,
+      "startTime": "2016-08-07T15:30:00-7:00",
+      "endTime": "2016-08-07T16:20:00-7:00"
    },
    {
       "name":"Kehlani",
-      "spotifyID":"0cGUm45nv7Z6M6qdXYQGTX"
+      "spotifyId":"0cGUm45nv7Z6M6qdXYQGTX",
+      "stageId": 3,
+      "startTime": "2016-08-07T17:05:00-7:00",
+      "endTime": "2016-08-07T17:55:00-7:00"
    },
    {
       "name":"Miguel",
-      "spotifyID":"360IAlyVv4PCEVjgyMZrxK"
+      "spotifyId":"360IAlyVv4PCEVjgyMZrxK",
+      "stageId": 3,
+      "startTime": "2016-08-07T18:40:00-7:00",
+      "endTime": "2016-08-07T19:40:00-7:00"
    },
    {
       "name":"Lana Del Rey",
-      "spotifyID":"00FQb4jTyendYWaN8pK0wa"
+      "spotifyId":"00FQb4jTyendYWaN8pK0wa",
+      "stageId": 3,
+      "startTime": "2016-08-07T20:25:00-7:00",
+      "endTime": "2016-08-07T21:35:00-7:00"
    },
    {
       "name":"Heron Oblivion",
-      "spotifyID":"6Wbgco5Pz6hIyw31NxiEJR"
+      "spotifyId":"6Wbgco5Pz6hIyw31NxiEJR",
+      "stageId": 4,
+      "startTime": "2016-08-07T12:00:00-7:00",
+      "endTime": "2016-08-07T12:40:00-7:00"
    },
    {
       "name":"Cloves",
-      "spotifyID":"355SqtHY4qKt2wIXrWku0c"
+      "spotifyId":"355SqtHY4qKt2wIXrWku0c",
+      "stageId": 4,
+      "startTime": "2016-08-07T13:20:00-7:00",
+      "endTime": "2016-08-07T14:00:00-7:00"
    },
    {
       "name":"HÆLOS",
-      "spotifyID":"132sZpCaM8ie6byAEcOcRs"
+      "spotifyId":"132sZpCaM8ie6byAEcOcRs",
+      "stageId": 4,
+      "startTime": "2016-08-07T14:45:00-7:00",
+      "endTime": "2016-08-07T15:25:00-7:00"
    },
    {
       "name":"Diiv",
-      "spotifyID":"4OrizGCKhOrW6iDDJHN9xd"
+      "spotifyId":"4OrizGCKhOrW6iDDJHN9xd",
+      "stageId": 4,
+      "startTime": "2016-08-07T16:20:00-7:00",
+      "endTime": "2016-08-07T17:00:00-7:00"
    },
    {
       "name":"RÜFÜS DU SOL",
-      "spotifyID":"6tHs9gFIpD0hCVto83sirH"
+      "spotifyId":"6tHs9gFIpD0hCVto83sirH",
+      "stageId": 4,
+      "startTime": "2016-08-07T17:55:00-7:00",
+      "endTime": "2016-08-07T18:35:00-7:00"
    },
    {
       "name":"Lettuce",
-      "spotifyID":"1fZXjUQEkVbB0TvZX4qFR8"
+      "spotifyId":"1fZXjUQEkVbB0TvZX4qFR8",
+      "stageId": 4,
+      "startTime": "2016-08-07T19:40:00-7:00",
+      "endTime": "2016-08-07T20:30:00-7:00"
    },
    {
       "name":"Grensta",
-      "spotifyID":"3hAb1iFjJFlKpoqzPnPkXe"
+      "spotifyId":"3hAb1iFjJFlKpoqzPnPkXe",
+      "stageId": 5,
+      "startTime": "2016-08-07T12:00:00-7:00",
+      "endTime": "2016-08-07T13:30:00-7:00"
    },
    {
       "name":"Deckard",
-      "spotifyID":"0ruhCjXUFHUgjhBperDiUf"
+      "spotifyId":"0ruhCjXUFHUgjhBperDiUf",
+      "stageId": 5,
+      "startTime": "2016-08-07T15:00:00-7:00",
+      "endTime": "2016-08-07T16:30:00-7:00"
    },
    {
       "name":"Gina Turner",
-      "spotifyID":"0AitvzeZvA2UkReVryKiS9"
+      "spotifyId":"0AitvzeZvA2UkReVryKiS9",
+      "stageId": 5,
+      "startTime": "2016-08-07T16:30:00-7:00",
+      "endTime": "2016-08-07T18:00:00-7:00"
    }
 ]
