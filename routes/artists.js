@@ -7,8 +7,13 @@ var models = require('../models');
 router.get('/', function(req, res, next) {
   models.Artist.findAll(
     {
-      attributes:
-        { exclude: ['createdAt', 'updatedAt'] },
+      attributes: { exclude: ['createdAt', 'updatedAt'] },
+      include: [
+        {
+          model: models.Stage,
+          attributes: { exclude: ['createdAt', 'updatedAt'] }
+        }
+      ]
     })
   .then(function(artists) {
     if (artists) {
@@ -22,6 +27,12 @@ router.get('/:artistId', function(req, res, next) {
     {
       where: { 'id' : req.params.artistId },
       attributes: { exclude: ['createdAt', 'updatedAt'] },
+      include: [
+        {
+          model: models.Stage,
+          attributes: { exclude: ['createdAt', 'updatedAt'] }
+        }
+      ]
     })
   .then(function(artist) {
     if (artist && artist[0] != undefined) {
