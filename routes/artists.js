@@ -14,7 +14,6 @@ router.get('/', function(req, res, next) {
     if (artists) {
       res.json({ 'artists': artists });
     }
-    console.log('error');
   });
 });
 

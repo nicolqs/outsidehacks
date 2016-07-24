@@ -31,37 +31,38 @@ artists.forEach(function (item) {
 });
 
 // Top Songs
-var json = fs.readFileSync(__dirname + '/../data/artists.json', 'utf8');
-var artists = JSON.parse(json);
+Artist.findAll({attributes:{exclude: ['createdAt', 'updatedAt'] }})
+.then(function(artists) {
+  if (artists) {
+    artists.forEach(function (artist) {
+      request('https://api.spotify.com/v1/artists/' + artist.spotifyId + '/top-tracks?country=US', function(error, response, body) {
+        if (!error && response.statusCode == 200) {
+          var data = JSON.parse(body);
+          var tracks = data.tracks;
+          var imageUrl;
 
-artists.forEach(function (item, index) {
-  request('https://api.spotify.com/v1/artists/' + item.spotifyID + '/top-tracks?country=US', function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      var data = JSON.parse(body);
-      var tracks = data.tracks;
-      var imageUrl;
+          tracks.forEach(function (song) {
+            if (song.album.images[0] == undefined) { // fallback URL
+              imageUrl = 'http://geniusmindsystem.org/music_portal/movies/album-placeholder.png';
+            } else {
+              imageUrl = song.album.images[0].url;
+            }
 
-      tracks.forEach(function (song) {
-        if (song.album.images[0] == undefined) { // fallback URL
-          imageUrl = 'http://geniusmindsystem.org/music_portal/movies/album-placeholder.png';
-        } else {
-          imageUrl = song.album.images[0].url;
+            Song.create(
+              {
+                'name' : song.name,
+                'imageUrl' : imageUrl,
+                'artistId' : artist.id
+              }
+            ).then(function(createdSong) {
+               console.log('name ' + song.name + ' inserted!');
+            });
+          });
         }
-
-        Song.create(
-          {
-            'name' : song.name,
-            'imageUrl' : imageUrl,
-            'artistId' : index
-          }
-        ).then(function(createdSong) {
-           console.log('name ' + song.name + ' inserted!');
-        });
       });
-    }
-  });
+    });
+  }
 });
-
 
 // Stages
 var json = fs.readFileSync(__dirname + '/../data/stages.json', 'utf8');
