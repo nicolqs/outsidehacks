@@ -3,7 +3,6 @@
 var fs        = require('fs');
 var path      = require('path');
 var Sequelize = require('sequelize');
-var basename  = path.basename(module.filename);
 var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
 var db        = {};
@@ -11,13 +10,13 @@ var db        = {};
 var sequelize = new Sequelize(config.database, config.username, config.password, config);
 
 var Artist = sequelize.define('artist', {
-    name: {
-      type: Sequelize.STRING
-    },
-    spotifyId: {
-      type: Sequelize.STRING
-    }
-  });
+  name: {
+    type: Sequelize.STRING
+  },
+  spotifyId: {
+    type: Sequelize.STRING
+  }
+});
 
 var Song = sequelize.define('song', {
     name: {
