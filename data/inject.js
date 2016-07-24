@@ -8,7 +8,7 @@ artists.forEach(function (item) {
       var data = JSON.parse(body);
       var imageUrl;
 
-      if (data.images[0] == undefined) { // fallback URL
+      if (data.images[1] == undefined) { // fallback URL
         imageUrl = 'http://4.bp.blogspot.com/-HexAc5BkACA/UITppjQqdXI/AAAAAAAAAUU/i3C3DWHVveY/s1600/artist-placeholder.gif';
       } else {
         imageUrl = data.images[1].url;
@@ -29,6 +29,39 @@ artists.forEach(function (item) {
 
     }
   })
+});
+
+// Top Songs
+var json = fs.readFileSync(__dirname + '/../data/artists.json', 'utf8');
+var artists = JSON.parse(json);
+
+artists.forEach(function (item, index) {
+  request('https://api.spotify.com/v1/artists/' + item.spotifyID + '/top-tracks?country=US', function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      var data = JSON.parse(body);
+      var tracks = data.tracks;
+      var imageUrl;
+
+      tracks.forEach(function (song) {
+        song = song.album;
+        if (song.images[0] == undefined) { // fallback URL
+          imageUrl = 'http://geniusmindsystem.org/music_portal/movies/album-placeholder.png';
+        } else {
+          imageUrl = song.images[0].url;
+        }
+
+        Song.create(
+          {
+            'name' : song.name,
+            'imageUrl' : imageUrl,
+            'artistId' : index
+          }
+        ).then(function(createdSong) {
+           console.log('name ' + song.name + ' inserted!');
+        });
+      });
+    }
+  });
 });
 
 
